@@ -31,4 +31,4 @@ AI Extension is a Chrome extension that provides quick access to various AI tool
 Feel free to contribute by forking the repository, making improvements, and submitting a pull request!
 
 ---
-Developed by ** [ Nikash Lamsal ] **
+Developed by **[ Nikash Lamsal ]**
