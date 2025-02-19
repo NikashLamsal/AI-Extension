@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "AI Tools Extension",
+    "version": "1.0",
+    "description": "A Chrome extension that provides quick access to the best AI tools for developers and students.",
+    "permissions": [
+      "activeTab"
+    ],
+    "action": {
+      "default_popup": "index.html"
+    },
+    "host_permissions": [
+      "https://*/*"
+    ]
+  }
+  
