@@ -1,6 +1,6 @@
 # AI Extension
 
-AI Extension is a Chrome extension that provides quick access to various AI tools for developers and students. It enhances productivity by offering a neatly organized interface to access AI-powered platforms.
+AI Extension is a Chrome extension that provides quick access to various AI tools for developers and students. This extension includes AI-powered coding assistants, research tools, writing helpers, design tools, and more—all in one place! It enhances productivity by offering a neatly organized interface to access AI-powered platforms.
 
 ## Features
 - One-click access to top AI tools
