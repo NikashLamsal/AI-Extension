@@ -9,6 +9,26 @@ body {
     color: #ffffff; 
 }
 
+h1 {
+    font-family: 'Fira Code', monospace;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #0ff;
+    text-shadow: 0 0 5px rgb(51, 217, 217), 0 0 10px rgb(56, 217, 217), 0 0 20px #08f;
+    background: linear-gradient(90deg, #222, #111);
+    padding: 10px 20px;
+    border: 2px solid #0ff;
+    display: inline-block;
+    border-radius: 8px;
+    animation: glow 1.5s infinite alternate;
+}
+
+h1:hover {
+    transform: scale(1);
+    box-shadow: 0 0 15px rgb(34, 170, 170), 0 0 30px #08f;
+    text-shadow: 0 0 15px rgb(18, 185, 185), 0 0 30px #08f;
+}
+
 .ai-tools {
     background: #282c34; 
     padding: 15px;
@@ -45,31 +65,45 @@ body {
     color: #ffffff;
 }
 
-.ai-btn {
-    position: absolute;
-    bottom: 15px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #28a745;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 18px; 
-    border: none;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s, background-color 0.2s;
-}
-
-.ai-btn:hover {
-    background-color: #218838;
-    transform: scale(1.1);
-}
-
 .ai-tools strong {
     font-size: 20px;  
     color: #f4b400;  
     display: block;    
     margin-top: 12px;
     text-transform: uppercase;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 14px; 
+    width: 100%;
+    max-width: 400px;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.social-links a {
+    display: inline-block;
+}
+
+.social-links img {
+    width: 20px; 
+    height: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
 }
